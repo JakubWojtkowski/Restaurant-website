@@ -4,7 +4,7 @@ function Home() {
   return (
     <section id="home">
       <div className="container">
-        <div className="home-main">
+        <div className="container-items">
           <div className="home-text">
             <h1>Your best food.</h1>
             <p>
