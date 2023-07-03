@@ -16,10 +16,15 @@ h2 {
 
 a {
   text-decoration: none;
+  color: #303030;
 }
 
 p {
   color: #6a6a6a;
+}
+
+ul {
+  list-style: none;
 }
 
 #navbar,
@@ -80,10 +85,10 @@ p {
   gap: 50px;
 }
 
-.navbar-nav ul li a,
+/* .navbar-nav ul li a,
 .navbar-socials-item i {
   color: #303030;
-}
+} */
 
 .navbar-socials-item i:hover {
 }
@@ -202,8 +207,12 @@ p {
 
 .footer {
   background-color: #502323bf;
-  height: 7rem;
-  width: 100%;
+}
+
+.footer-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
 
 /* WAVE */
