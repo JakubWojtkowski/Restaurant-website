@@ -1,5 +1,6 @@
 import React from "react";
 import MenuItem from "./Menu-item";
+import dishes from "../dishes.json";
 
 function Menu() {
   return (
@@ -9,7 +10,7 @@ function Menu() {
           <div className="menu-text">
             <h2>Chef recommends</h2>
           </div>
-          <MenuItem />
+          <MenuItem dishes={dishes} />
         </div>
       </div>
     </section>

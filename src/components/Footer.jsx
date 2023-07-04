@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="container">
-        <div className="container-items">
+      <div className="footer-container">
+        <div className="footer-items">
           <div className="logo">
             <span className="navbar-logo-footer">
               <span className="navbar-logo-first">Thai</span>
@@ -23,6 +23,19 @@ function Footer() {
                 <a href="#">Contact</a>
               </li>
             </ul>
+          </div>
+
+          <div className="navbar-socials">
+            <div className="navbar-socials-item">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div className="navbar-socials-item">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

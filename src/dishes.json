@@ -1,0 +1,43 @@
+[{
+        "id": 1,
+        "name": "Tom Kha Gai",
+        "description": "Lorem ipsum dolor sit amet, consectetur adip",
+        "amount": "$4.50",
+        "img": "./images/menu/tom-kha-gai.png"
+    },
+    {
+        "id": 2,
+        "name": "Pad Thai",
+        "description": "Lorem ipsum dolor sit amet, consectetur adip",
+        "amount": "$4.25",
+        "img": "./images/menu/pad-thai.png"
+    },
+    {
+        "id": 3,
+        "name": "Som Tam",
+        "description": "Lorem ipsum dolor sit amet, consectetur adip",
+        "amount": "$3.99",
+        "img": "./images/menu/som-tam.png"
+    },
+    {
+        "id": 4,
+        "name": "Khao Pad",
+        "description": "Lorem ipsum dolor sit amet, consectetur adip",
+        "amount": "$5.00",
+        "img": "./images/menu/khao-pad.png"
+    },
+    {
+        "id": 5,
+        "name": "Pad Krapow",
+        "description": "Lorem ipsum dolor sit amet, consectetur adip",
+        "amount": "$4.59",
+        "img": "./images/menu/pad-krapow.png"
+    },
+    {
+        "id": 6,
+        "name": "Char Kway Teow",
+        "description": "Lorem ipsum dolor sit amet, consectetur adip",
+        "amount": "$4.39",
+        "img": "./images/menu/char-kway-teow.jpg"
+    }
+]
