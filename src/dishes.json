@@ -35,9 +35,9 @@
     },
     {
         "id": 6,
-        "name": "Char Kway Teow",
+        "name": "Thai Soup",
         "description": "Lorem ipsum dolor sit amet, consectetur adip",
         "amount": "$4.39",
-        "img": "./images/menu/char-kway-teow.jpg"
+        "img": "./images/menu/thai-soup.png"
     }
 ]

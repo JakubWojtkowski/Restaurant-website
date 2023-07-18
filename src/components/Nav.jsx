@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Nav() {
+  const [iconClass, setIconClass] = useState("fa-solid fa-bars-staggered");
+
   return (
     <section id="navbar">
       <div className="navbar-main">
