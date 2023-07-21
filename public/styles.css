@@ -331,6 +331,15 @@ ul {
     grid-gap: 50px;
   }
 
+  .nav-bar-links {
+    display: none;
+  }
+
+  .nav-bar .toggle-btn {
+    display: block;
+    padding: 0;
+  }
+
   /* Dropdown-menu */
 
   .dropdown-menu {
