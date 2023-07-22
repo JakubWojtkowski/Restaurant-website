@@ -11,17 +11,18 @@ function Nav() {
           <span className="navbar-logo-second">Food</span>
         </span>
         <nav className="navbar-nav">
-          <ul>
+          <ul className="nav-bar-links">
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Menu</a>
+              <a href="#menu">Menu</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
+
           <button
             className="toggle-btn"
             onClick={(e) => {
@@ -39,33 +40,32 @@ function Nav() {
           </button>
 
           <div className="dropdown-menu">
-          <ul
-            className="dropdown-menu-links"
-            onClick={() => {
-              const dropDownMenu = document.querySelector(".dropdown-menu");
-              dropDownMenu.classList.toggle("open");
-              dropDownMenu.classList.toggle("closed");
+            <ul
+              className="dropdown-menu-links"
+              onClick={() => {
+                const dropDownMenu = document.querySelector(".dropdown-menu");
+                dropDownMenu.classList.toggle("open");
+                dropDownMenu.classList.toggle("closed");
 
-              const isClosed = dropDownMenu.classList.contains("closed");
+                const isClosed = dropDownMenu.classList.contains("closed");
 
-              isClosed
-                ? setIconClass("fa-solid fa-bars-staggered")
-                : setIconClass("fa-solid fa-xmark");
-              dropDownMenu.classList.toggle("closed");
-            }}
-          >
-            <li>
-              <a href="#home">About</a>
-            </li>
-            <li>
-              <a href="#about">Menu</a>
-            </li>
-            <li>
-              <a href="#skills">Contact</a>
-            </li>
-          
-          </ul>
-        </div>
+                isClosed
+                  ? setIconClass("fa-solid fa-bars-staggered")
+                  : setIconClass("fa-solid fa-xmark");
+                dropDownMenu.classList.toggle("closed");
+              }}
+            >
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#menu">Menu</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </nav>
 
         <div className="navbar-socials">

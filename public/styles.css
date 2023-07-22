@@ -132,13 +132,14 @@ ul {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
   transition: all 0.3 ease-in-out;
   width: 100%;
   z-index: 300;
   position: fixed;
   top: 0;
   left: 0;
-  height: 110vh;
+  height: 25vh;
   background-color: #fff;
 }
 
@@ -146,7 +147,7 @@ ul {
   left: -100% !important;
 }
 
-.dropdown-menu-links {
+.navbar-nav ul.dropdown-menu-links {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -331,13 +332,14 @@ ul {
     grid-gap: 50px;
   }
 
-  .nav-bar-links {
+  .navbar-nav .nav-bar-links {
     display: none;
   }
 
-  .nav-bar .toggle-btn {
+  .toggle-btn {
     display: block;
     padding: 0;
+    position: relative;
   }
 
   /* Dropdown-menu */
