@@ -307,8 +307,7 @@ ul {
 
   .container-items {
     grid-template-columns: 1fr;
-    max-width: 600px;
-    min-width: 400px;
+    width: 300px;
     align-items: center;
     justify-content: center;
     place-items: center;

@@ -8,8 +8,7 @@ function Home() {
           <div className="home-text">
             <h1>Your best food.</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            Flavors of the Orient: Unleash Your Culinary Adventure at ThaiFood
             </p>
           </div>
 
